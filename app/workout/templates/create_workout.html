@@ -1,0 +1,15 @@
+<html lang="en">
+
+{% extends "base.html" %}
+
+{% block title %}Create Workout{% endblock %}
+
+{% block content %}
+<form action="" method="post">
+    <label for="workout-name">Workout Name</label>
+    <input id="workout-name" type="text">
+    <div id="exercises"></div>
+    <button id="add_exercise" type="button">+ Add Exercise</button>
+</form>
+<script src="static/workout.js"></script>
+{% endblock %}
